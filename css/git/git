@@ -1,0 +1,45 @@
+*GIT*
+
+Sistema de controle de versao de codigo, monitoramento de tudo o que mudou no codigo, permite comparar codigo, ter 
+historico e trabalhar com times de maneira organizada
+
+Anteriormente tinhamos algo parecido com a versao final de um Tcc.
+
+O Git passa a trazer uma linha do tempo do codigo.
+
+Commit nada mais e que gerar uma nova versao do projeto.
+
+Um commit pode sempre trazer um detalhamento do que ele faz.
+
+Alem disso, podemos trabalhar com branches. Uma ramificaçao do projeto sem prejudicar o que ja temos desenvolvido.
+
+Os projetos ficam gravados dentro da plataforma escolhida, como o GitHub ou Gitlab.
+
+O sistema se chama Git, ele funciona somente atraves de linha de comando.
+
+---------------------------------------------
+
+Exercicio 
+
+- Criar conta no GitHub
+- Instalar Git
+- Iniciar um projeto no GitHub
+- Criar um projeto Local
+- Iniciar o Git Local
+- Iniciar o diretorio remoto
+- Git Status
+- Git Add
+- Branches
+- Git Commit -m "Mensagem"
+- Git config --global user.email
+- Git config --global user.name
+- Git Log
+- Git Checkout Commit
+- Git checkout -b nomeNovaBranche
+- Git Merge nomeDaBranche
+- Git Clone
+- Git remote add origin + url do repositorio - sera feita uma ponte
+- Git push -u origin master  (-u mostra que a master sera o padrao da master do github)
+- Autenticar o usuario
+- CLI do Github
+- 

@@ -1,0 +1,86 @@
+***Linguagens compiladas***
+
+C
+
+No caso da linguagem C, tivemos que fazer o seguinte. 
+
+Por ela ser uma linnguagem compilada, é preciso usar uma ferramenta que compila o código. 
+
+Ou seja, que neste caso usamos o GCC. 
+
+O que ele fez foi pegar o codigo escrito em C e transformar em uma lingaugem de maquina.
+
+Ao abrir o arquivo ele fica todo desconfigurado, porem, podemo saber que ele se trata de um executavel.
+
+Isso pode ser visto via terminal.
+
+Um arquivo compilado da linguagem c ja pode ser intepretado direto pela maquina por se tratar de um binario e ter uma estrutura
+de execucao igual a do processador da maquina. Por isso temos diferencas entre arquivos do linux, macos e windows. 
+Sendo arquivos .exe, .dmg e .elf
+
+Para compilar um codigo c fazemos o seguinte:
+
+via terminal: gcc exemploC.c -o exemploC
+e entao executamos o arquivo ./exemploC
+
+Vendo o arquivo
+
+Cat exemploC
+Hexdump exemploC
+hexdump -C exemploC
+stat exemploC
+file exemploC
+
+----------------------------------------------------------------
+
+Java
+
+No caso de Java, ao instalar o java na sua maquina, algumas ferramentas vem como padrao no chamado Java JDK.
+
+Entre elas temos o compilador chamado javac.
+
+Ele transforma codigo fonte escrito em java em bytecode. 
+
+Toda vez que um arquivo java for compilado sera gerado um arquivo com extensao .class 
+
+O arquivo .class sera executado pela JVM - Java Virtual Machine que tambem faz parte do JDK.
+
+
+----------------------------------------------------------------
+
+Linguagens interpretadas
+
+Para os exemplos de:
+
+Python, Ruby e JavaScrip notem que nao tivemos que compilar nada. Isso porque elas sao Linguagens
+interpretadas. Ou seja, ao ter instalada alguma dessas linguagens na sua maquina e ao criar um 
+codigo fonte, automaticamente ocorre o processo de conversao em bytecode e interpretacao do mesmo.
+
+O aquivo nem precisa ficar de forma separada como no caso de C e Java. Dizemos que isso ocorre por 
+"baixo dos panos", ele acaba tendo uma especie de compilacao em tempo de execucao. 
+
+para ver o exemplo disso basta executar o codigo no terminal
+
+python3 exemploPython.python3
+ruby exemploRuby.rb 
+node exemploJavaScript.js 
+
+No caso usamos o comando node por ele ser uma execucao fora de um navegador, ou seja, o node cria uma especie de 
+ambiente no terminal para executar o codigo javascript 
+
+
+----------------------------------------------------------------
+
+Dica, encontrar um arquivo no linux
+
+sudo find / -name ghidraRun 
+which 
+
+cat arquivo | grep parametro
+
+
+
+
+
+
+

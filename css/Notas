@@ -1,0 +1,70 @@
+
+O CSS é o resável por trazer o estilo a paginas HTML.
+Geralmente o CSS vai ficar de forma separada das paginas HTML como vimos em exemplos iniciais.
+
+
+*CSS Inline*
+
+Quando o Css esta dentro do documento HTML e dentro de uma tag, falamos que ele esta inline.
+Por exemplo <h2 style="color:blue".
+Prioridade 0
+
+*CSS Incorporado*
+
+Podemos criar as tags chamadas <style> como vimos em alguns exemplos ate agora.
+Onde podemos criar o nome em uma div e atribuir propriedades nos elementos daquela tag.
+Prioridade 1
+
+*CSS Externo*
+
+Podemos tambem usar estilos criados por terceiros para aplicar um estilo e referenciar o local do CSS dentro do Head.
+Este arquivo podera estar dentro do nosso projeto ou ate mesmo em outro local hospedado por terceiros.
+<link rel="stylesheet" href="http://fonts.googleapis.com/css" ou href="css/estilo">
+Prioridade 2
+
+
+*Seletores e Classes*
+
+O seletor serve para dizer qual elemento sera modificado ou tera um estilo aplicado.
+De uma forma mais simples, poderia ser citado o nome do componente apenas, como por exemplo body e os atributos desejados para estilizar.
+Ou seja, o seletor seleciona um atributo html direto.
+Usando classes, temos o seguinte exemplo:
+
+<div class="menu">
+
+<style>
+    .menu {
+        background-color:dimgrey;
+        overflow: hidden;
+        border-radius: 25px;
+        padding: 20px;
+        border: 1px solid black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        font-weight: bold;
+        box-shadow: inset;
+    }
+</style>
+
+
+*Propriedades CSS*
+
+- Color - Cor de um elemento
+- Background - Fundo de um elemento
+- Border - Bordas de um elemento
+- Margin - Afastamento fora do elemento
+- Padding - Afastamento dentro do elemento
+- Width e Height - Altura e Largura do elemento
+- Text
+- Font
+- Links
+- Display - Inline, Block, Inline-Block
+- Max Width
+- Position
+- Overflow
+- Float
+- Opacity
+- Dropdown
+- FlexBox

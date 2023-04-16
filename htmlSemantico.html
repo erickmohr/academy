@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantico</title>
+
+    <!--um primeiro exemplo de estilizacao de uma pagina-->
+    <style>
+        .textoEsquerdo {
+            background-color:aquamarine;
+            float: left;
+            width: 40%;
+            padding: 15px;
+        }
+
+        .textoEsquerdo h2 {
+            color:red;
+            width: 40%;
+        }
+
+    </style>
+
+    <style>
+        .textoDireito {
+            background-color:yellow;
+            float: right;
+            width: 40%;
+            padding: 15px;
+        }
+
+        .textoDireito h2 {
+            color:red;
+            width: 40%;
+        }
+
+    </style>
+
+    <style>
+        .titulo {
+            background-color:gray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+<style>
+    .menu {
+        background-color:dimgrey;
+        overflow: hidden;
+        border-radius: 25px;
+        padding: 20px;
+        border: 1px solid black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        font-weight: bold;
+        box-shadow: inset;
+    }
+
+    .menu a {
+        color:white;
+        padding: 14px;
+        display:flex;
+        text-decoration: none;
+    }
+
+</style>
+
+</head>
+<body>
+    <!--
+        Div vem de divisoria mesmo, podemos entender isso como um bloco dentro da pagina html
+        Uma div vai segregar conteudos
+    -->
+    <div class="titulo">
+        <h1> Titulo da pagina</h1>
+    </div>    
+
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="formularios.html">Formularios</a>
+        <a href="iframes.html">Iframes</a>
+    </div>
+
+    <div class="textoEsquerdo">
+        <h2> Textos esquerda</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptates quod ullam doloremque? Fuga dicta eligendi dolorum, ipsa expedita repellat nisi unde nemo accusamus ullam cum repudiandae quo, impedit odio.</p>
+    </div>
+
+
+    <div class="textoDireito">
+        <h2> Textos direita</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptates quod ullam doloremque? Fuga dicta eligendi dolorum, ipsa expedita repellat nisi unde nemo accusamus ullam cum repudiandae quo, impedit odio.
+        </p>
+    </div>
+
+
+</body>
+</html>
+
+
+
+<!--
+    
+    usamos tags que tem significados, como usar por exemplo:
+    - header
+    - nav
+    - section
+    - footer
+    - article
+
+-->

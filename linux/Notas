@@ -1,0 +1,34 @@
+Porque usar o Linux?
+
+- Vantagens
+
+- Voce ja estara o mais proximo possivel de um ambiente real de desenvolvimento, seja em Cloud providers
+ou serviços on-premises.
+
+- Existem diversos pacotes que ja vem por padrao no linux.
+
+- Bons programadores dirigem e consertam o proprio carro - Fabio Akita.
+
+- Instalar o git
+- Comando man 
+- Comando touch
+- cd - change directory
+- mkdir - make directory
+- rm - remove
+- chown - chage owner
+- sudo - 
+- su 
+- whoami
+- pwd - print work directory
+- ls - 
+    - ls -la
+    - ls -a
+    - ls -l 
+- grep - 
+- apt install
+- man 
+- vi - 
+- /
+- ~
+- cat 
+- 

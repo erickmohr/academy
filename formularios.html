@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form>
+        <label for="Nome">Nome:</label> <!--Legenda--> &nbsp;
+        <input id="Nome" type="text" placeholder="Insira seu nome"> 
+        <br>
+        <label for="Sobrenome">Sobrenome:</label> <!--Legenda-->
+        <input id="Sobrenome" type="text" placeholder="Insira seu sobrenome">
+        <br>
+        <label for="Senha">Senha</label>
+        <input id="Senha" type="password" placeholder="Senha">
+        <br>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="Email" required="True">
+        
+        <!--Importante, tags do tipo input nao tem fechamento-->
+
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <hr>
+
+    <form action="" method=""> 
+        <h2>Animais</h2>
+        <input type="radio" name="animal" value="cachorro">
+        <label for="cachorro">Cachorro</label>
+        <br>
+        <input type="radio" name="animal" value="gato">
+        <label for="gato">Gato</label>
+        <br>
+        <input type="radio" name="animal" value="Peixe">
+        <label for="peixe">Peixe</label>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <hr>
+    <form action="" method="">
+        <h2>O que voce tem em casa?</h2>
+            <input id="item1" type="checkbox" name="item1" value="TV">
+            <label for="item1">TV</label>
+            <br>
+            <input id="item2" type="checkbox" name="item2" value="PC">
+            <label for="item2">PC</label>
+            <br>
+            <input id="item3" type="checkbox" name="item3" value="Radio">
+            <label for="item3">Radio</label>
+    </form>
+    <hr>
+    <form action="" method="">
+        <h2>Selecione uma cor</h2>
+        <select name="color">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="green">Gray</option>
+            <option value="yellow">Yellow</option>
+        </select> 
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+
+    <form action="" method="">
+        <h2>Selecione uma ou mais cores</h2>
+        <select name="colors[]" multiple>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="gray">Gray</option>
+            <option value="yellow">Yellow</option>
+        </select> 
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <hr>
+
+    <h2>
+        Mensagens grandes
+    </h2>
+    <textarea name="mensagem" placeholder="escreva sua mensagem" rows="10" cols="50"></textarea> 
+    <br>
+
+    <hr>
+
+
+    <!--importante, quando criamos um button dentro de uma tag de formulario ele ira assumir automaticamente
+    o comportamento de enviar o formulario-->
+
+</body>
+</html>
+
+
+
+
+
+
+<!--
+
+    inserir um verbo
+    falar a respeito de metodos
+    falar a respeito de payloads
+    falar a respeito de JSON
+
+-->
